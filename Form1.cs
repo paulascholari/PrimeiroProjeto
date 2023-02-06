@@ -33,5 +33,17 @@ namespace PrimeiroProjeto
         {
              System.Diagnostics.Process.Start("calc");
         }
+
+        private void categoriasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var janela = new frmcategoria();
+            janela.Show();
+        }
+
+        private void clientesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var janela = new frmclientes();
+            janela.Show();
+        }
     }
 }
