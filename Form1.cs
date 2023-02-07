@@ -57,5 +57,11 @@ namespace PrimeiroProjeto
             var janela = new Frmfuncionarios();
             janela.Show();
         }
+
+        private void produtosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var janela = new Frmprodutos();
+            janela.Show();
+        }
     }
 }

@@ -31,9 +31,9 @@ namespace PrimeiroProjeto
             btnCancelar.Enabled = true;
             btnSalvar.Enabled = true;
             btnExcluir.Enabled = false;
-            txtCargo.Enabled = true;
+            TxtCargo.Enabled = true;
             btnNovo.Enabled = false;
-            btnLocalizar.Enabled = false;
+            
 
            
         }
@@ -45,6 +45,16 @@ namespace PrimeiroProjeto
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            btnCancelar.Enabled = false;
+            btnSalvar.Enabled = false;
+            btnExcluir.Enabled = false;
+            TxtCargo.Enabled = false;
+            btnNovo.Enabled = true;
 
         }
     }
