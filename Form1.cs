@@ -45,5 +45,17 @@ namespace PrimeiroProjeto
             var janela = new frmclientes();
             janela.Show();
         }
+
+        private void fornecedoresToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var janela = new frmFornecedores();
+            janela.Show();
+        }
+
+        private void funcionariosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var janela = new Frmfuncionarios();
+            janela.Show();
+        }
     }
 }
