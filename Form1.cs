@@ -63,5 +63,17 @@ namespace PrimeiroProjeto
             var janela = new Frmprodutos();
             janela.Show();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            toolStripStatusLabel2.Text = DateTime.Now.ToLongDateString();
+            toolStripStatusLabel3.Text = DateTime.Now.ToShortTimeString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            frmlogin login =new frmlogin();
+            login.ShowDialog();
+        }
     }
 }

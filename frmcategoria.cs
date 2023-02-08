@@ -44,5 +44,10 @@ namespace PrimeiroProjeto
         {
             Close();
         }
+
+        private void frmcategoria_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

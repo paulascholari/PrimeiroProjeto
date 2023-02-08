@@ -49,12 +49,14 @@
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.TextCodigo = new System.Windows.Forms.TextBox();
             this.LabelCodigo = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1, 37);
+            this.label1.Location = new System.Drawing.Point(1, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
@@ -64,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1, 155);
+            this.label2.Location = new System.Drawing.Point(1, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 1;
@@ -73,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 76);
+            this.label3.Location = new System.Drawing.Point(1, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 2;
@@ -82,7 +84,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1, 116);
+            this.label4.Location = new System.Drawing.Point(1, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 3;
@@ -91,39 +93,39 @@
             // TextBairro
             // 
             this.TextBairro.Enabled = false;
-            this.TextBairro.Location = new System.Drawing.Point(4, 171);
+            this.TextBairro.Location = new System.Drawing.Point(4, 154);
             this.TextBairro.Name = "TextBairro";
-            this.TextBairro.Size = new System.Drawing.Size(158, 20);
+            this.TextBairro.Size = new System.Drawing.Size(256, 20);
             this.TextBairro.TabIndex = 4;
             // 
             // TextName
             // 
             this.TextName.Enabled = false;
-            this.TextName.Location = new System.Drawing.Point(4, 53);
+            this.TextName.Location = new System.Drawing.Point(4, 37);
             this.TextName.Name = "TextName";
-            this.TextName.Size = new System.Drawing.Size(307, 20);
+            this.TextName.Size = new System.Drawing.Size(256, 20);
             this.TextName.TabIndex = 5;
             // 
             // TextCep
             // 
             this.TextCep.Enabled = false;
-            this.TextCep.Location = new System.Drawing.Point(4, 211);
+            this.TextCep.Location = new System.Drawing.Point(4, 193);
             this.TextCep.Name = "TextCep";
-            this.TextCep.Size = new System.Drawing.Size(158, 20);
+            this.TextCep.Size = new System.Drawing.Size(112, 20);
             this.TextCep.TabIndex = 6;
             // 
             // TextTelefone
             // 
             this.TextTelefone.Enabled = false;
-            this.TextTelefone.Location = new System.Drawing.Point(4, 248);
+            this.TextTelefone.Location = new System.Drawing.Point(122, 193);
             this.TextTelefone.Name = "TextTelefone";
-            this.TextTelefone.Size = new System.Drawing.Size(125, 20);
+            this.TextTelefone.Size = new System.Drawing.Size(138, 20);
             this.TextTelefone.TabIndex = 7;
             // 
             // TextEmail
             // 
             this.TextEmail.Enabled = false;
-            this.TextEmail.Location = new System.Drawing.Point(4, 286);
+            this.TextEmail.Location = new System.Drawing.Point(4, 232);
             this.TextEmail.Name = "TextEmail";
             this.TextEmail.Size = new System.Drawing.Size(256, 20);
             this.TextEmail.TabIndex = 8;
@@ -131,23 +133,23 @@
             // TextCpf
             // 
             this.TextCpf.Enabled = false;
-            this.TextCpf.Location = new System.Drawing.Point(4, 92);
+            this.TextCpf.Location = new System.Drawing.Point(4, 76);
             this.TextCpf.Name = "TextCpf";
-            this.TextCpf.Size = new System.Drawing.Size(178, 20);
+            this.TextCpf.Size = new System.Drawing.Size(256, 20);
             this.TextCpf.TabIndex = 9;
             // 
             // TextEndereço
             // 
             this.TextEndereço.Enabled = false;
-            this.TextEndereço.Location = new System.Drawing.Point(4, 132);
+            this.TextEndereço.Location = new System.Drawing.Point(4, 115);
             this.TextEndereço.Name = "TextEndereço";
-            this.TextEndereço.Size = new System.Drawing.Size(299, 20);
+            this.TextEndereço.Size = new System.Drawing.Size(256, 20);
             this.TextEndereço.TabIndex = 10;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1, 234);
+            this.label5.Location = new System.Drawing.Point(119, 177);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 11;
@@ -156,7 +158,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1, 194);
+            this.label6.Location = new System.Drawing.Point(1, 177);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(26, 13);
             this.label6.TabIndex = 12;
@@ -165,7 +167,7 @@
             // LabelEmail
             // 
             this.LabelEmail.AutoSize = true;
-            this.LabelEmail.Location = new System.Drawing.Point(1, 271);
+            this.LabelEmail.Location = new System.Drawing.Point(1, 216);
             this.LabelEmail.Name = "LabelEmail";
             this.LabelEmail.Size = new System.Drawing.Size(35, 13);
             this.LabelEmail.TabIndex = 13;
@@ -174,7 +176,7 @@
             // 
             // BtnNovo
             // 
-            this.BtnNovo.Location = new System.Drawing.Point(4, 338);
+            this.BtnNovo.Location = new System.Drawing.Point(3, 17);
             this.BtnNovo.Name = "BtnNovo";
             this.BtnNovo.Size = new System.Drawing.Size(75, 23);
             this.BtnNovo.TabIndex = 14;
@@ -185,7 +187,7 @@
             // BtnSalvar
             // 
             this.BtnSalvar.Enabled = false;
-            this.BtnSalvar.Location = new System.Drawing.Point(85, 338);
+            this.BtnSalvar.Location = new System.Drawing.Point(84, 17);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(75, 23);
             this.BtnSalvar.TabIndex = 15;
@@ -195,7 +197,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Enabled = false;
-            this.BtnCancelar.Location = new System.Drawing.Point(166, 338);
+            this.BtnCancelar.Location = new System.Drawing.Point(165, 17);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(75, 23);
             this.BtnCancelar.TabIndex = 16;
@@ -205,7 +207,7 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(354, 338);
+            this.BtnFechar.Location = new System.Drawing.Point(347, 17);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 17;
@@ -216,7 +218,7 @@
             // BtnExcluir
             // 
             this.BtnExcluir.Enabled = false;
-            this.BtnExcluir.Location = new System.Drawing.Point(247, 338);
+            this.BtnExcluir.Location = new System.Drawing.Point(246, 17);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(75, 23);
             this.BtnExcluir.TabIndex = 18;
@@ -226,7 +228,7 @@
             // TextCodigo
             // 
             this.TextCodigo.Enabled = false;
-            this.TextCodigo.Location = new System.Drawing.Point(414, 53);
+            this.TextCodigo.Location = new System.Drawing.Point(292, 37);
             this.TextCodigo.Name = "TextCodigo";
             this.TextCodigo.Size = new System.Drawing.Size(94, 20);
             this.TextCodigo.TabIndex = 19;
@@ -234,24 +236,34 @@
             // LabelCodigo
             // 
             this.LabelCodigo.AutoSize = true;
-            this.LabelCodigo.Location = new System.Drawing.Point(411, 37);
+            this.LabelCodigo.Location = new System.Drawing.Point(289, 21);
             this.LabelCodigo.Name = "LabelCodigo";
             this.LabelCodigo.Size = new System.Drawing.Size(40, 13);
             this.LabelCodigo.TabIndex = 20;
             this.LabelCodigo.Text = "Codigo";
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnNovo);
+            this.panel1.Controls.Add(this.BtnSalvar);
+            this.panel1.Controls.Add(this.BtnCancelar);
+            this.panel1.Controls.Add(this.BtnFechar);
+            this.panel1.Controls.Add(this.BtnExcluir);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 271);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(732, 45);
+            this.panel1.TabIndex = 21;
+            // 
             // frmclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(732, 316);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.LabelCodigo);
             this.Controls.Add(this.TextCodigo);
-            this.Controls.Add(this.BtnExcluir);
-            this.Controls.Add(this.BtnFechar);
-            this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.BtnSalvar);
-            this.Controls.Add(this.BtnNovo);
             this.Controls.Add(this.LabelEmail);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -268,6 +280,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmclientes";
             this.Text = "frmclientes";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,5 +309,6 @@
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.TextBox TextCodigo;
         private System.Windows.Forms.Label LabelCodigo;
+        private System.Windows.Forms.Panel panel1;
     }
 }

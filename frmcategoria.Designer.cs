@@ -37,12 +37,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.TextCategoria = new System.Windows.Forms.TextBox();
             this.TextCodigo = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BtnExcluir
             // 
             this.BtnExcluir.Enabled = false;
-            this.BtnExcluir.Location = new System.Drawing.Point(243, 161);
+            this.BtnExcluir.Location = new System.Drawing.Point(246, 17);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(75, 23);
             this.BtnExcluir.TabIndex = 0;
@@ -51,7 +53,7 @@
             // 
             // BtnNovo
             // 
-            this.BtnNovo.Location = new System.Drawing.Point(0, 161);
+            this.BtnNovo.Location = new System.Drawing.Point(3, 17);
             this.BtnNovo.Name = "BtnNovo";
             this.BtnNovo.Size = new System.Drawing.Size(75, 23);
             this.BtnNovo.TabIndex = 1;
@@ -62,7 +64,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Enabled = false;
-            this.BtnCancelar.Location = new System.Drawing.Point(162, 161);
+            this.BtnCancelar.Location = new System.Drawing.Point(165, 17);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(75, 23);
             this.BtnCancelar.TabIndex = 2;
@@ -72,7 +74,7 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(359, 161);
+            this.BtnFechar.Location = new System.Drawing.Point(357, 17);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 3;
@@ -83,7 +85,7 @@
             // BtnSalvar
             // 
             this.BtnSalvar.Enabled = false;
-            this.BtnSalvar.Location = new System.Drawing.Point(81, 161);
+            this.BtnSalvar.Location = new System.Drawing.Point(84, 17);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(75, 23);
             this.BtnSalvar.TabIndex = 4;
@@ -93,7 +95,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-3, 41);
+            this.label1.Location = new System.Drawing.Point(9, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 5;
@@ -103,7 +105,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-3, 90);
+            this.label2.Location = new System.Drawing.Point(9, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 6;
@@ -112,7 +114,7 @@
             // TextCategoria
             // 
             this.TextCategoria.Enabled = false;
-            this.TextCategoria.Location = new System.Drawing.Point(0, 57);
+            this.TextCategoria.Location = new System.Drawing.Point(12, 67);
             this.TextCategoria.Name = "TextCategoria";
             this.TextCategoria.Size = new System.Drawing.Size(198, 20);
             this.TextCategoria.TabIndex = 7;
@@ -120,27 +122,39 @@
             // TextCodigo
             // 
             this.TextCodigo.Enabled = false;
-            this.TextCodigo.Location = new System.Drawing.Point(0, 106);
+            this.TextCodigo.Location = new System.Drawing.Point(12, 106);
             this.TextCodigo.Name = "TextCodigo";
             this.TextCodigo.Size = new System.Drawing.Size(118, 20);
             this.TextCodigo.TabIndex = 8;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnNovo);
+            this.panel1.Controls.Add(this.BtnSalvar);
+            this.panel1.Controls.Add(this.BtnCancelar);
+            this.panel1.Controls.Add(this.BtnExcluir);
+            this.panel1.Controls.Add(this.BtnFechar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 148);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(758, 50);
+            this.panel1.TabIndex = 11;
             // 
             // frmcategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(758, 198);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.TextCodigo);
             this.Controls.Add(this.TextCategoria);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.BtnSalvar);
-            this.Controls.Add(this.BtnFechar);
-            this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.BtnNovo);
-            this.Controls.Add(this.BtnExcluir);
             this.Name = "frmcategoria";
             this.Text = "frmcategoria";
+            this.Load += new System.EventHandler(this.frmcategoria_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +171,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TextCategoria;
         private System.Windows.Forms.TextBox TextCodigo;
+        private System.Windows.Forms.Panel panel1;
     }
 }

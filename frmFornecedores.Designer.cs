@@ -49,28 +49,30 @@
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.BtnFechar = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // TextName
             // 
             this.TextName.Enabled = false;
-            this.TextName.Location = new System.Drawing.Point(-1, 31);
+            this.TextName.Location = new System.Drawing.Point(12, 31);
             this.TextName.Name = "TextName";
-            this.TextName.Size = new System.Drawing.Size(223, 20);
+            this.TextName.Size = new System.Drawing.Size(183, 20);
             this.TextName.TabIndex = 0;
             // 
             // TextBairro
             // 
             this.TextBairro.Enabled = false;
-            this.TextBairro.Location = new System.Drawing.Point(-1, 155);
+            this.TextBairro.Location = new System.Drawing.Point(12, 155);
             this.TextBairro.Name = "TextBairro";
-            this.TextBairro.Size = new System.Drawing.Size(132, 20);
+            this.TextBairro.Size = new System.Drawing.Size(183, 20);
             this.TextBairro.TabIndex = 1;
             // 
             // TextEndereço
             // 
             this.TextEndereço.Enabled = false;
-            this.TextEndereço.Location = new System.Drawing.Point(-1, 110);
+            this.TextEndereço.Location = new System.Drawing.Point(12, 113);
             this.TextEndereço.Name = "TextEndereço";
             this.TextEndereço.Size = new System.Drawing.Size(183, 20);
             this.TextEndereço.TabIndex = 2;
@@ -78,7 +80,7 @@
             // TextCnpj
             // 
             this.TextCnpj.Enabled = false;
-            this.TextCnpj.Location = new System.Drawing.Point(-1, 70);
+            this.TextCnpj.Location = new System.Drawing.Point(12, 70);
             this.TextCnpj.Name = "TextCnpj";
             this.TextCnpj.Size = new System.Drawing.Size(183, 20);
             this.TextCnpj.TabIndex = 3;
@@ -86,7 +88,7 @@
             // TextCep
             // 
             this.TextCep.Enabled = false;
-            this.TextCep.Location = new System.Drawing.Point(-1, 199);
+            this.TextCep.Location = new System.Drawing.Point(12, 199);
             this.TextCep.Name = "TextCep";
             this.TextCep.Size = new System.Drawing.Size(183, 20);
             this.TextCep.TabIndex = 4;
@@ -94,7 +96,7 @@
             // TextTelefone
             // 
             this.TextTelefone.Enabled = false;
-            this.TextTelefone.Location = new System.Drawing.Point(-1, 239);
+            this.TextTelefone.Location = new System.Drawing.Point(12, 239);
             this.TextTelefone.Name = "TextTelefone";
             this.TextTelefone.Size = new System.Drawing.Size(183, 20);
             this.TextTelefone.TabIndex = 5;
@@ -102,9 +104,9 @@
             // TextEmail
             // 
             this.TextEmail.Enabled = false;
-            this.TextEmail.Location = new System.Drawing.Point(-1, 278);
+            this.TextEmail.Location = new System.Drawing.Point(12, 287);
             this.TextEmail.Name = "TextEmail";
-            this.TextEmail.Size = new System.Drawing.Size(139, 20);
+            this.TextEmail.Size = new System.Drawing.Size(183, 20);
             this.TextEmail.TabIndex = 6;
             // 
             // TextCodigo
@@ -118,7 +120,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-4, 15);
+            this.label1.Location = new System.Drawing.Point(9, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 8;
@@ -127,7 +129,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-4, 94);
+            this.label2.Location = new System.Drawing.Point(9, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 9;
@@ -136,7 +138,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(-4, 262);
+            this.label3.Location = new System.Drawing.Point(9, 271);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 10;
@@ -154,7 +156,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(-4, 223);
+            this.label5.Location = new System.Drawing.Point(9, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 12;
@@ -164,7 +166,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(-4, 54);
+            this.label6.Location = new System.Drawing.Point(9, 54);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(28, 13);
             this.label6.TabIndex = 13;
@@ -173,7 +175,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(-4, 139);
+            this.label7.Location = new System.Drawing.Point(9, 139);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(34, 13);
             this.label7.TabIndex = 14;
@@ -182,7 +184,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(-4, 183);
+            this.label8.Location = new System.Drawing.Point(9, 183);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(26, 13);
             this.label8.TabIndex = 15;
@@ -190,7 +192,7 @@
             // 
             // BtnNovo
             // 
-            this.BtnNovo.Location = new System.Drawing.Point(-1, 333);
+            this.BtnNovo.Location = new System.Drawing.Point(10, 17);
             this.BtnNovo.Name = "BtnNovo";
             this.BtnNovo.Size = new System.Drawing.Size(75, 23);
             this.BtnNovo.TabIndex = 16;
@@ -201,7 +203,7 @@
             // BtnSalvar
             // 
             this.BtnSalvar.Enabled = false;
-            this.BtnSalvar.Location = new System.Drawing.Point(80, 333);
+            this.BtnSalvar.Location = new System.Drawing.Point(91, 17);
             this.BtnSalvar.Name = "BtnSalvar";
             this.BtnSalvar.Size = new System.Drawing.Size(75, 23);
             this.BtnSalvar.TabIndex = 17;
@@ -211,7 +213,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Enabled = false;
-            this.BtnCancelar.Location = new System.Drawing.Point(161, 333);
+            this.BtnCancelar.Location = new System.Drawing.Point(172, 15);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(75, 23);
             this.BtnCancelar.TabIndex = 18;
@@ -222,7 +224,7 @@
             // BtnExcluir
             // 
             this.BtnExcluir.Enabled = false;
-            this.BtnExcluir.Location = new System.Drawing.Point(242, 333);
+            this.BtnExcluir.Location = new System.Drawing.Point(253, 15);
             this.BtnExcluir.Name = "BtnExcluir";
             this.BtnExcluir.Size = new System.Drawing.Size(75, 23);
             this.BtnExcluir.TabIndex = 19;
@@ -231,24 +233,34 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(337, 333);
+            this.BtnFechar.Location = new System.Drawing.Point(351, 15);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 21;
-            this.BtnFechar.Text = "Cancelar";
+            this.BtnFechar.Text = "Fechar";
             this.BtnFechar.UseVisualStyleBackColor = true;
             this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnNovo);
+            this.panel1.Controls.Add(this.BtnFechar);
+            this.panel1.Controls.Add(this.BtnSalvar);
+            this.panel1.Controls.Add(this.BtnExcluir);
+            this.panel1.Controls.Add(this.BtnCancelar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 315);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(696, 45);
+            this.panel1.TabIndex = 22;
             // 
             // frmFornecedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.BtnFechar);
-            this.Controls.Add(this.BtnExcluir);
-            this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.BtnSalvar);
-            this.Controls.Add(this.BtnNovo);
+            this.ClientSize = new System.Drawing.Size(696, 360);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -267,6 +279,7 @@
             this.Controls.Add(this.TextName);
             this.Name = "frmFornecedores";
             this.Text = "frmFornecedores";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,5 +308,6 @@
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.Button BtnFechar;
+        private System.Windows.Forms.Panel panel1;
     }
 }
