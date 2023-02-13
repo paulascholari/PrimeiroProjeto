@@ -29,6 +29,7 @@ namespace PrimeiroProjeto
             BtnCancelar.Enabled = true;
             BtnExcluir.Enabled = false;
             TextCategoria.Enabled = true;
+            BtnLocalizar.Enabled = false;
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
@@ -38,6 +39,7 @@ namespace PrimeiroProjeto
             BtnCancelar.Enabled = false;
             BtnExcluir.Enabled = false;
             TextCategoria.Enabled = false;
+            BtnLocalizar.Enabled = true;
         }
 
         private void BtnFechar_Click(object sender, EventArgs e)

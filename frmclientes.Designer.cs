@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,6 +51,10 @@
             this.TextCodigo = new System.Windows.Forms.TextBox();
             this.LabelCodigo = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnLocalizar = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.TextN = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,7 +148,7 @@
             this.TextEndereço.Enabled = false;
             this.TextEndereço.Location = new System.Drawing.Point(4, 115);
             this.TextEndereço.Name = "TextEndereço";
-            this.TextEndereço.Size = new System.Drawing.Size(256, 20);
+            this.TextEndereço.Size = new System.Drawing.Size(215, 20);
             this.TextEndereço.TabIndex = 10;
             // 
             // label5
@@ -207,7 +212,7 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(347, 17);
+            this.BtnFechar.Location = new System.Drawing.Point(424, 15);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 17;
@@ -245,6 +250,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnLocalizar);
             this.panel1.Controls.Add(this.BtnNovo);
             this.panel1.Controls.Add(this.BtnSalvar);
             this.panel1.Controls.Add(this.BtnCancelar);
@@ -256,11 +262,44 @@
             this.panel1.Size = new System.Drawing.Size(732, 45);
             this.panel1.TabIndex = 21;
             // 
+            // BtnLocalizar
+            // 
+            this.BtnLocalizar.Location = new System.Drawing.Point(327, 17);
+            this.BtnLocalizar.Name = "BtnLocalizar";
+            this.BtnLocalizar.Size = new System.Drawing.Size(75, 23);
+            this.BtnLocalizar.TabIndex = 22;
+            this.BtnLocalizar.Text = "Localizar";
+            this.BtnLocalizar.UseVisualStyleBackColor = true;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // TextN
+            // 
+            this.TextN.Enabled = false;
+            this.TextN.Location = new System.Drawing.Point(225, 115);
+            this.TextN.Name = "TextN";
+            this.TextN.Size = new System.Drawing.Size(35, 20);
+            this.TextN.TabIndex = 23;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(225, 99);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 13);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "N°";
+            // 
             // frmclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 316);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.TextN);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.LabelCodigo);
             this.Controls.Add(this.TextCodigo);
@@ -310,5 +349,9 @@
         private System.Windows.Forms.TextBox TextCodigo;
         private System.Windows.Forms.Label LabelCodigo;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BtnLocalizar;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox TextN;
+        private System.Windows.Forms.Label label7;
     }
 }

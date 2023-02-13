@@ -71,8 +71,12 @@ namespace PrimeiroProjeto
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            frmlogin login =new frmlogin();
+        { // isso bai abrir a janela splash
+            var janela = new Janelasplash();
+            janela.ShowDialog();
+
+            // isso vai abrir a janela de login
+            var login = new frmlogin();
             login.ShowDialog();
         }
     }

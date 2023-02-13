@@ -38,6 +38,7 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnLocalizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,7 +83,7 @@
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(75, 23);
             this.btnNovo.TabIndex = 4;
-            this.btnNovo.Text = "novo";
+            this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
             this.btnNovo.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -93,7 +94,7 @@
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 5;
-            this.btnSalvar.Text = "salvar";
+            this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
@@ -119,17 +120,18 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(338, 19);
+            this.btnFechar.Location = new System.Drawing.Point(434, 19);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(75, 23);
             this.btnFechar.TabIndex = 9;
-            this.btnFechar.Text = "fechar";
+            this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnLocalizar);
             this.panel1.Controls.Add(this.btnNovo);
             this.panel1.Controls.Add(this.btnFechar);
             this.panel1.Controls.Add(this.btnSalvar);
@@ -140,6 +142,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(650, 54);
             this.panel1.TabIndex = 10;
+            // 
+            // BtnLocalizar
+            // 
+            this.BtnLocalizar.Location = new System.Drawing.Point(324, 19);
+            this.BtnLocalizar.Name = "BtnLocalizar";
+            this.BtnLocalizar.Size = new System.Drawing.Size(75, 23);
+            this.BtnLocalizar.TabIndex = 10;
+            this.BtnLocalizar.Text = "Localizar";
+            this.BtnLocalizar.UseVisualStyleBackColor = true;
             // 
             // frmcargo
             // 
@@ -172,5 +183,6 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BtnLocalizar;
     }
 }

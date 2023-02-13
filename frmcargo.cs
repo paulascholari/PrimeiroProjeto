@@ -33,6 +33,7 @@ namespace PrimeiroProjeto
             btnExcluir.Enabled = false;
             TxtCargo.Enabled = true;
             btnNovo.Enabled = false;
+            BtnLocalizar.Enabled = false;
             
 
            
@@ -55,6 +56,7 @@ namespace PrimeiroProjeto
             btnExcluir.Enabled = false;
             TxtCargo.Enabled = false;
             btnNovo.Enabled = true;
+            BtnLocalizar.Enabled = true;
 
         }
     }

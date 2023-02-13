@@ -36,10 +36,12 @@ namespace PrimeiroProjeto
             TextCep.Enabled= true;
             TextTelefone.Enabled= true;
             TextEmail.Enabled= true;   
+            TextN.Enabled= true;
             BtnCancelar.Enabled= true;
             BtnSalvar.Enabled= true;
             BtnExcluir.Enabled = false;
             BtnNovo.Enabled= false;
+            BtnLocalizar.Enabled= false;
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
@@ -51,10 +53,12 @@ namespace PrimeiroProjeto
             TextCep.Enabled = false;
             TextTelefone.Enabled = false;
             TextEmail.Enabled = false;
+            TextN.Enabled = false;
             BtnCancelar.Enabled = false;
             BtnSalvar.Enabled = false;
             BtnExcluir.Enabled = false;
             BtnNovo.Enabled = true;
+            BtnLocalizar.Enabled = true;
         }
 
         private void BtnFechar_Click(object sender, EventArgs e)

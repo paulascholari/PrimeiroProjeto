@@ -48,6 +48,7 @@
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.BtnFechar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLocalizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,7 @@
             this.TextNomeEmpresa.Enabled = false;
             this.TextNomeEmpresa.Location = new System.Drawing.Point(9, 28);
             this.TextNomeEmpresa.Name = "TextNomeEmpresa";
-            this.TextNomeEmpresa.Size = new System.Drawing.Size(184, 20);
+            this.TextNomeEmpresa.Size = new System.Drawing.Size(195, 20);
             this.TextNomeEmpresa.TabIndex = 0;
             // 
             // TextNomeProduto
@@ -64,7 +65,7 @@
             this.TextNomeProduto.Enabled = false;
             this.TextNomeProduto.Location = new System.Drawing.Point(9, 121);
             this.TextNomeProduto.Name = "TextNomeProduto";
-            this.TextNomeProduto.Size = new System.Drawing.Size(226, 20);
+            this.TextNomeProduto.Size = new System.Drawing.Size(195, 20);
             this.TextNomeProduto.TabIndex = 1;
             // 
             // TextDescrição
@@ -72,7 +73,7 @@
             this.TextDescrição.Enabled = false;
             this.TextDescrição.Location = new System.Drawing.Point(9, 207);
             this.TextDescrição.Name = "TextDescrição";
-            this.TextDescrição.Size = new System.Drawing.Size(230, 20);
+            this.TextDescrição.Size = new System.Drawing.Size(195, 20);
             this.TextDescrição.TabIndex = 2;
             // 
             // TextCnpj
@@ -80,15 +81,15 @@
             this.TextCnpj.Enabled = false;
             this.TextCnpj.Location = new System.Drawing.Point(9, 71);
             this.TextCnpj.Name = "TextCnpj";
-            this.TextCnpj.Size = new System.Drawing.Size(184, 20);
+            this.TextCnpj.Size = new System.Drawing.Size(195, 20);
             this.TextCnpj.TabIndex = 3;
             // 
             // TextQuantidade
             // 
             this.TextQuantidade.Enabled = false;
-            this.TextQuantidade.Location = new System.Drawing.Point(9, 160);
+            this.TextQuantidade.Location = new System.Drawing.Point(12, 160);
             this.TextQuantidade.Name = "TextQuantidade";
-            this.TextQuantidade.Size = new System.Drawing.Size(59, 20);
+            this.TextQuantidade.Size = new System.Drawing.Size(33, 20);
             this.TextQuantidade.TabIndex = 4;
             // 
             // TextCodigo
@@ -157,7 +158,7 @@
             // TextCodigoProdutos
             // 
             this.TextCodigoProdutos.Enabled = false;
-            this.TextCodigoProdutos.Location = new System.Drawing.Point(135, 160);
+            this.TextCodigoProdutos.Location = new System.Drawing.Point(86, 160);
             this.TextCodigoProdutos.Name = "TextCodigoProdutos";
             this.TextCodigoProdutos.Size = new System.Drawing.Size(100, 20);
             this.TextCodigoProdutos.TabIndex = 12;
@@ -165,7 +166,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(132, 144);
+            this.label7.Location = new System.Drawing.Point(83, 144);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 13);
             this.label7.TabIndex = 13;
@@ -215,7 +216,7 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(350, 17);
+            this.BtnFechar.Location = new System.Drawing.Point(419, 17);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 18;
@@ -226,6 +227,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.btnLocalizar);
             this.panel1.Controls.Add(this.BtnNovo);
             this.panel1.Controls.Add(this.BtnFechar);
             this.panel1.Controls.Add(this.BtnSalvar);
@@ -236,6 +238,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(775, 55);
             this.panel1.TabIndex = 19;
+            // 
+            // btnLocalizar
+            // 
+            this.btnLocalizar.Location = new System.Drawing.Point(327, 17);
+            this.btnLocalizar.Name = "btnLocalizar";
+            this.btnLocalizar.Size = new System.Drawing.Size(75, 23);
+            this.btnLocalizar.TabIndex = 19;
+            this.btnLocalizar.Text = "Localizar";
+            this.btnLocalizar.UseVisualStyleBackColor = true;
             // 
             // Frmprodutos
             // 
@@ -287,5 +298,6 @@
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.Button BtnFechar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnLocalizar;
     }
 }

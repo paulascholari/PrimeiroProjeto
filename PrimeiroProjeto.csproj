@@ -94,6 +94,12 @@
     <Compile Include="Frmprodutos.Designer.cs">
       <DependentUpon>Frmprodutos.cs</DependentUpon>
     </Compile>
+    <Compile Include="janelasplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="janelasplash.Designer.cs">
+      <DependentUpon>janelasplash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -120,6 +126,9 @@
     <EmbeddedResource Include="Frmprodutos.resx">
       <DependentUpon>Frmprodutos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="janelasplash.resx">
+      <DependentUpon>janelasplash.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -145,6 +154,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5392929.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-public-utility-utility-bill-audit-i-5b3b8cf5f1d126.5498832915306293659905.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-public-utility-utility-bill-audit-i-5b3b8cf5f1d126.54988329153062936599051.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1690427.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3144611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4745448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trabalho anderson.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

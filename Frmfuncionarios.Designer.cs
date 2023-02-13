@@ -50,6 +50,9 @@
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.BtnFechar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnLocalizar = new System.Windows.Forms.Button();
+            this.TextN = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,7 +109,7 @@
             this.TextEndereço.Enabled = false;
             this.TextEndereço.Location = new System.Drawing.Point(12, 113);
             this.TextEndereço.Name = "TextEndereço";
-            this.TextEndereço.Size = new System.Drawing.Size(280, 20);
+            this.TextEndereço.Size = new System.Drawing.Size(241, 20);
             this.TextEndereço.TabIndex = 6;
             // 
             // TextCodigo
@@ -233,7 +236,7 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(358, 14);
+            this.BtnFechar.Location = new System.Drawing.Point(447, 14);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 21;
@@ -244,6 +247,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnLocalizar);
             this.panel1.Controls.Add(this.BtnNovo);
             this.panel1.Controls.Add(this.BtnFechar);
             this.panel1.Controls.Add(this.BtnSalvar);
@@ -256,11 +260,39 @@
             this.panel1.TabIndex = 22;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // BtnLocalizar
+            // 
+            this.BtnLocalizar.Location = new System.Drawing.Point(338, 14);
+            this.BtnLocalizar.Name = "BtnLocalizar";
+            this.BtnLocalizar.Size = new System.Drawing.Size(75, 23);
+            this.BtnLocalizar.TabIndex = 23;
+            this.BtnLocalizar.Text = "Localizar";
+            this.BtnLocalizar.UseVisualStyleBackColor = true;
+            // 
+            // TextN
+            // 
+            this.TextN.Enabled = false;
+            this.TextN.Location = new System.Drawing.Point(259, 113);
+            this.TextN.Name = "TextN";
+            this.TextN.Size = new System.Drawing.Size(33, 20);
+            this.TextN.TabIndex = 23;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(257, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(19, 13);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "N°";
+            // 
             // Frmfuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 302);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TextN);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -310,5 +342,8 @@
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.Button BtnFechar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BtnLocalizar;
+        private System.Windows.Forms.TextBox TextN;
+        private System.Windows.Forms.Label label3;
     }
 }

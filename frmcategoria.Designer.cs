@@ -38,6 +38,7 @@
             this.TextCategoria = new System.Windows.Forms.TextBox();
             this.TextCodigo = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnLocalizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +75,7 @@
             // 
             // BtnFechar
             // 
-            this.BtnFechar.Location = new System.Drawing.Point(357, 17);
+            this.BtnFechar.Location = new System.Drawing.Point(423, 17);
             this.BtnFechar.Name = "BtnFechar";
             this.BtnFechar.Size = new System.Drawing.Size(75, 23);
             this.BtnFechar.TabIndex = 3;
@@ -95,7 +96,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 41);
+            this.label1.Location = new System.Drawing.Point(12, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 5;
@@ -105,7 +106,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 90);
+            this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 6;
@@ -114,7 +115,7 @@
             // TextCategoria
             // 
             this.TextCategoria.Enabled = false;
-            this.TextCategoria.Location = new System.Drawing.Point(12, 67);
+            this.TextCategoria.Location = new System.Drawing.Point(15, 64);
             this.TextCategoria.Name = "TextCategoria";
             this.TextCategoria.Size = new System.Drawing.Size(198, 20);
             this.TextCategoria.TabIndex = 7;
@@ -122,7 +123,7 @@
             // TextCodigo
             // 
             this.TextCodigo.Enabled = false;
-            this.TextCodigo.Location = new System.Drawing.Point(12, 106);
+            this.TextCodigo.Location = new System.Drawing.Point(15, 25);
             this.TextCodigo.Name = "TextCodigo";
             this.TextCodigo.Size = new System.Drawing.Size(118, 20);
             this.TextCodigo.TabIndex = 8;
@@ -130,6 +131,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnLocalizar);
             this.panel1.Controls.Add(this.BtnNovo);
             this.panel1.Controls.Add(this.BtnSalvar);
             this.panel1.Controls.Add(this.BtnCancelar);
@@ -140,6 +142,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(758, 50);
             this.panel1.TabIndex = 11;
+            // 
+            // BtnLocalizar
+            // 
+            this.BtnLocalizar.Location = new System.Drawing.Point(327, 17);
+            this.BtnLocalizar.Name = "BtnLocalizar";
+            this.BtnLocalizar.Size = new System.Drawing.Size(75, 23);
+            this.BtnLocalizar.TabIndex = 5;
+            this.BtnLocalizar.Text = "Localizar";
+            this.BtnLocalizar.UseVisualStyleBackColor = true;
             // 
             // frmcategoria
             // 
@@ -172,5 +183,6 @@
         private System.Windows.Forms.TextBox TextCategoria;
         private System.Windows.Forms.TextBox TextCodigo;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BtnLocalizar;
     }
 }
